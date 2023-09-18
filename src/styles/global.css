@@ -1,0 +1,91 @@
+@charset "UTF-8"; /* Optional charset declaration */
+@import url("../fonts/stylesheet.css"); /* @import statement */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aqua: #0eb7be;
+  --dark: #232635;
+  --primary-pink: #fa4a6f;
+  --secondary-pink: #ec3384;
+  --purple: #532b79;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "BR Omega";
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.primary-btn {
+  border-radius: 5px;
+  background: linear-gradient(
+    180deg,
+    var(--primary-pink) 0%,
+    var(--purple) 100%
+  );
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 6px 9px;
+  text-transform: capitalize;
+}
