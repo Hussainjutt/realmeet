@@ -2,7 +2,6 @@ import React from "react";
 const Card = (props) => {
   return (
     <>
-      <h1>Section 2 Card</h1>
       <div className="flex flex-wrap justify-center gap-[60px] my-[40px]">
         {props.details.map((value, index) => (
           <div className="w-[250px]" key={index}>

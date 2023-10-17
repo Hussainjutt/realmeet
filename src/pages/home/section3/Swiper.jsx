@@ -27,7 +27,7 @@ const Swipper = (props) => {
 
   return (
     <div className="w-full  flex items-center justify-center gap-2 p-2">
-      <button onClick={handleNextClick}>
+      <button onClick={handlePrevClick}>
         <MdKeyboardArrowLeft color="#E84670" size={30} />
       </button>
       <Swiper
@@ -60,7 +60,7 @@ const Swipper = (props) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <button onClick={handlePrevClick}>
+      <button onClick={handleNextClick}>
         <MdKeyboardArrowRight color="#E84670" size={30} />
       </button>
     </div>
