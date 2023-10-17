@@ -7,11 +7,7 @@ const Card = (props) => {
         {props.details.map((value, index) => (
           <div className="w-[250px]" key={index}>
             <div>
-              <img
-                src={value.img}
-                alt=""
-                className="object-cover rounded-t-md mb-2"
-              />
+              <value.img />
             </div>
             <div>
               <h3>{value.title}</h3>
