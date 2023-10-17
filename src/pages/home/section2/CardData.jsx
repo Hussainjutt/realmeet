@@ -7,20 +7,17 @@ import Sec4_3 from "../../../assets/icons/sec4-3.svg";
 
 const CardData = [
   {
-    // img: <BsFillFileTextFill />,
-    img: Sec4_1,
+    img: BsFillFileTextFill,
     title: "Sign Up",
     description: "Register for free & put up your Matrimony Profile",
   },
   {
-    // img: { LuShare2 },
-    img: Sec4_2,
+    img: LuShare2,
     title: "Connect",
     description: "Select & Connect with Matches you like",
   },
   {
-    // img: MdOutlineConnectWithoutContact,
-    img: Sec4_3,
+    img: MdOutlineConnectWithoutContact,
     title: "Interact",
     description: "Become a Premium Member & Start a Conversation",
   },
