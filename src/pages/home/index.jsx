@@ -3,6 +3,7 @@ import Banner from "./section1/Banner";
 import Section2 from "./section2/Section2";
 import Section4 from "./section4/index";
 import Section3 from "./section3/Section3";
+import Section7 from "./section7/Section7";
 
 const index = () => {
   return (
@@ -11,6 +12,7 @@ const index = () => {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Section7/>
     </>
   );
 };
