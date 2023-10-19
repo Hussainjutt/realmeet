@@ -6,7 +6,7 @@ import Featured5 from "../../../assets/images/Featured-5.png";
 
 const Swiperdata = [
   {
-    index: 999,
+    
     img: Featured1,
     title: "Profile ID: 23456",
     description: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
