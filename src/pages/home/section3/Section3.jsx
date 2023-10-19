@@ -4,7 +4,7 @@ import Swiper from "./Swiper";
 const Section3 = () => {
   return (
     <>
-      <div className="bg-gray-50 py-[80px] ">
+      <div className="bg-gray-50 py-[80px] my-[50px]">
         <h4 className="text-center text-slate-800 text-[40px] font-normal font-['BR Omega'] leading-[54px]">
           Featured profiles
         </h4>

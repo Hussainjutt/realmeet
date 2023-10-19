@@ -1,4 +1,4 @@
-import logo3 from "../../../assets/icons/logo3.svg";
+import logo3 from "../../../assets/SVG/logo3.svg";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { TbBrandInstagram } from "react-icons/tb";

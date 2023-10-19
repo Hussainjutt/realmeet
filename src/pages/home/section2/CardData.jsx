@@ -1,9 +1,6 @@
 import { BsFillFileTextFill } from "react-icons/bs";
 import { LuShare2 } from "react-icons/lu";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
-import Sec4_1 from "../../../assets/icons/sec4-1.svg";
-import Sec4_2 from "../../../assets/icons/sec4-2.svg";
-import Sec4_3 from "../../../assets/icons/sec4-3.svg";
 
 const CardData = [
   {

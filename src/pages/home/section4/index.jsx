@@ -1,18 +1,17 @@
 import React from "react";
 import Sec4frontimg from "../../../assets/images/sec4-front-img.png";
 import Sec4backimg from "../../../assets/images/sec4-back-img.jpg";
-import Sec4_1 from "../../../assets/icons/sec4-1.svg";
-import Sec4_2 from "../../../assets/icons/sec4-2.svg";
-import Sec4_3 from "../../../assets/icons/sec4-3.svg";
+import Sec4_1 from "../../../assets/SVG/sec4-1.svg";
+import Sec4_2 from "../../../assets/SVG/sec4-2.svg";
+import Sec4_3 from "../../../assets/SVG/sec4-3.svg";
 
 const index = () => {
   return (
     <>
       <div className="w-[80%] m-auto">
         <h2 className="text-slate-800 text-[36px] font-normal font-['BR Omega'] leading-[54px]">
-          Lorem dolor amet consectetur adipiscing.
-          Commode acceptor bandit torpor meanness egoists mathis. ucibus laces
-          ultrices acned seed.
+          Lorem dolor amet consectetur adipiscing. Commode acceptor bandit
+          torpor meanness egoists mathis. ucibus laces ultrices acned seed.
         </h2>
         <div className="flex justify-center gap-[70px] h-[450px] my-[50px]">
           <div className="relative w-[300px]">

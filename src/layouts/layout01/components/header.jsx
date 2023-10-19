@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import logo from "../../../assets/icons/logo.png";
-import logo2 from "../../../assets/icons/logo2.svg";
+import logo2 from "../../../assets/SVG/logo2.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = ({ setOpen, open }) => {
