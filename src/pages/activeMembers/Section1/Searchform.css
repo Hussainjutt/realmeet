@@ -1,0 +1,22 @@
+.Searchbox {
+  width: 80%;
+  margin: auto;
+}
+
+.member {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+}
+
+.inputFields {
+  width: 270px;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+.inputFields input {
+  margin-right: 5px;
+}
