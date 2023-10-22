@@ -1,11 +1,11 @@
 import React from "react";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
-const Section6 = () => {
+const Section6 = (props) => {
   return (
     <>
       <div className="w-[80%] mx-auto ">
-        <h2 className="text-center text-slate-800 text-[40px] font-normal font-['BR Omega'] leading-[54px]">
-          Membership Plans
+        <h2 className="pb-3 text-center text-slate-800 text-[40px] font-normal font-['BR Omega'] leading-[54px]">
+          {props.title}
         </h2>
         <p className="text-center text-slate-800 text-lg font-normal font-['BR Omega'] leading-[25.20px]">
           Upgrade your plan as per your customized requirements. With a paid{" "}

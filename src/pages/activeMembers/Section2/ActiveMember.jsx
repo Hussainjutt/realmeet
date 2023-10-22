@@ -9,7 +9,7 @@ import { AiOutlineUnorderedList } from "react-icons/ai";
 const ActiveMember = (props) => {
   return (
     <>
-      <h1>Active Members</h1>
+      {/* <h1>Active Members</h1> */}
 
       <div className="flex  gap-9 justify-center">
         <div className=" flex gap-7    ">

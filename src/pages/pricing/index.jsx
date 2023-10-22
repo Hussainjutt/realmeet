@@ -1,7 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Pricing from "./Pricing";
 const Index = () => {
-  return <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsam commodi in quis aliquam dolorem laborum eius dicta asperiores vel dolores totam omnis, tenetur aut nam, sint qui corporis deleniti!</p></div>
-}
+  return (
+    <>
+      <Pricing />
+    </>
+  );
+};
 
-export default Index
+export default Index;

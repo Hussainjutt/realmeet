@@ -1,14 +1,7 @@
 import React from "react";
-import activemember from ".././../../assets/images/activememberimg1.png";
-import diannerussell from ".././../../assets/images/dianne-russell.png";
 
-const MemberData = [
-  {
-    img: activemember,
-  },
-  {
-    img: diannerussell,
-  },
-];
+const MemberData = () => {
+  return <div>MemberData</div>;
+};
 
 export default MemberData;
