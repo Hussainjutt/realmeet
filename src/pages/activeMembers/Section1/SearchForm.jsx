@@ -175,6 +175,14 @@ const SearchForm = () => {
               </div>
             </div>
           </div>
+          <div className="bg-cstm_primary_pink-100 rounded-[5px] text-center py-[5px] mt-5">
+            <button
+              type="submit"
+              className="text-white text-lg font-normal font-['BR Omega'] tracking-tight"
+            >
+              Search Now
+            </button>
+          </div>
         </form>
       </div>
     </>
