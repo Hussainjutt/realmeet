@@ -1,7 +1,11 @@
 import React from "react";
-
+import Section1 from "./Section1/Section1";
 const Index = () => {
-  return <div>Contact us</div>;
+  return (
+    <>
+      <Section1 />
+    </>
+  );
 };
 
 export default Index;
