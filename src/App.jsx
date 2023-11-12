@@ -6,9 +6,12 @@ import ActiveMembers from "./pages/activeMembers";
 import Pricing from "./pages/pricing";
 import Success from "./pages/success";
 import ContactUs from "./pages/contactUs";
+import Home2 from "./pages/home2";
 
 const App = () => {
   const routes = [
+    
+    { title: "Home2", route: "/home2", component: Home2, layout: Layout01 },
     { title: "Home", route: "/", component: Home, layout: Layout01 },
     {
       title: "Active Members",
@@ -36,6 +39,7 @@ const App = () => {
     },
   ];
   return (
+    <>
     <BrowserRouter>
       <Routes>
         {routes.map((route, key) => (
@@ -55,6 +59,10 @@ const App = () => {
         ))}
       </Routes>
     </BrowserRouter>
+  
+    </>
+    
+
   );
 };
 

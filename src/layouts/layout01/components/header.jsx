@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = ({ setOpen, open }) => {
   const links = [
+    { title: "Home2", route: "/home2" },
     { title: "Home", route: "/" },
     { title: "Active Members", route: "/activeMembers" },
     { title: "Pricing", route: "/pricing" },
