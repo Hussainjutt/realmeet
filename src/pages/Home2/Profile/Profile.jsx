@@ -1,9 +1,3 @@
-import React from "react";
-<<<<<<< HEAD
-
-const Profile = () => {
-  return <div>Profile</div>;
-=======
 import Profileimg from "../../../assets/images/profileimg.jpg";
 import Profilebanner from "../../../assets/images/profilebanner.png";
 import FlagUS from "../../../assets/images/flag.png";
@@ -187,7 +181,7 @@ const Profile = () => {
       </div>
     </>
   );
->>>>>>> acea3e493f14ec93f075cf632461be36cccc4680
+
 };
 
 export default Profile;
