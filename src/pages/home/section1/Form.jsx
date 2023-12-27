@@ -33,6 +33,7 @@ const RegistrationForm = () => {
       <h2 className=" text-[45px] font-normal font-['BR Omega'] xsm:text-purple-700 sm:text-black">
         Find your mate with us
       </h2>
+
       <div
         className="h-[550px] flex flex-col justify-center items-center bg-white rounded bg-opacity-[0.2]
         sm:bg-opacity-[0.2] md:bg-opacity-[0.6] lg:bg-opacity-[1]"
