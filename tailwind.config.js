@@ -32,5 +32,12 @@ module.exports = {
   theme: {
     colors: colors,
   },
+  theme: {
+    extend: {
+      screens: {
+        xsm: "400px",
+      },
+    },
+  },
   plugins: [require("flowbite/plugin")],
 };

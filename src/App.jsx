@@ -10,7 +10,6 @@ import Home2 from "./pages/home2";
 
 const App = () => {
   const routes = [
-    
     { title: "Home2", route: "/home2", component: Home2, layout: Layout01 },
     { title: "Home", route: "/", component: Home, layout: Layout01 },
     {
@@ -40,29 +39,26 @@ const App = () => {
   ];
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        {routes.map((route, key) => (
-          <Route
-            path={route.route}
-            key={key}
-            element={
-              route.layout ? (
-                <route.layout>
+      <BrowserRouter>
+        <Routes>
+          {routes.map((route, key) => (
+            <Route
+              path={route.route}
+              key={key}
+              element={
+                route.layout ? (
+                  <route.layout>
+                    <route.component />
+                  </route.layout>
+                ) : (
                   <route.component />
-                </route.layout>
-              ) : (
-                <route.component />
-              )
-            }
-          />
-        ))}
-      </Routes>
-    </BrowserRouter>
-  
+                )
+              }
+            />
+          ))}
+        </Routes>
+      </BrowserRouter>
     </>
-    
-
   );
 };
 

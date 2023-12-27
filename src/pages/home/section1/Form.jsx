@@ -30,13 +30,12 @@ const RegistrationForm = () => {
 
   return (
     <div>
-      <h2 className="text-slate-800 text-[65px] font-normal font-['BR Omega'] ">
-        Find your <br />
-        mate with us
+      <h2 className=" text-[45px] font-normal font-['BR Omega'] xsm:text-purple-700 sm:text-black">
+        Find your mate with us
       </h2>
       <div
         className="h-[550px] flex flex-col justify-center items-center bg-white rounded bg-opacity-[0.2]
-        sm:bg-opacity-[0.4] md:bg-opacity-[0.6] lg:bg-opacity-[1]"
+        sm:bg-opacity-[0.2] md:bg-opacity-[0.6] lg:bg-opacity-[1]"
       >
         <h2 className="px-2 text-center text-slate-800 text-xl mb-3 font-normal font-['BR Omega']">
           Create your profile for your perfect match!
