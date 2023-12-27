@@ -2,7 +2,11 @@ import React from "react";
 import Profileimg from "../../../assets/images/profileimg.jpg";
 import Profilebanner from "../../../assets/images/profilebanner.png";
 import FlagUS from "../../../assets/images/flag.png";
+<<<<<<< HEAD
 import Profileicon from "../../../assets/SVG/ProfileFrame.svg";
+=======
+import Profileicon from "../../../assets/SVG/ProfileFrame.jpeg";
+>>>>>>> acea3e493f14ec93f075cf632461be36cccc4680
 import { FaRegEnvelope } from "react-icons/fa6";
 import { FaListUl } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";
