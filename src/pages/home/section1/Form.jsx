@@ -30,7 +30,7 @@ const RegistrationForm = () => {
 
   return (
     <div>
-      <h2 className="text-slate-800 text-[65px] font-normal font-['BR Omega'] ">
+      <h2 className="   text-slate-800 text-[65px] font-normal font-['BR Omega']   ">
         Find your <br />
         mate with us
       </h2>
